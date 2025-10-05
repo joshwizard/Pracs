@@ -1,0 +1,37 @@
+// function declaration
+
+function functionName () {
+    //function block
+    return ""
+}
+
+// function expression
+let total = function () { }
+
+let total_age = () => { }
+
+// Anonymous function
+setTimeout(() => { })
+
+// Immediately Invoked Function 
+(function () { })()
+
+// Callback -- function passed as argument to another function func
+// High Order Functions -- functions that accepts another function as an arg addSum
+function addSum (x, func) { }
+
+function func() { }
+
+//example of IIF
+(function () {
+    //function
+    return ""
+})
+
+(function (x, y) {
+    return x 
+})
+
+// Assignment
+// pass by value
+// pass by reference
